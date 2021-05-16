@@ -174,7 +174,7 @@ plt.show()
 
 # Hypothesis 2:
    
-step_prob2 = 0.9
+step_prob2 = 0.6
 n_steps2 = 100 # Essentially number of steps.
 
 
@@ -223,7 +223,7 @@ position2 = np.zeros((n_simulations, n_steps))
 
 
 # Redefine our step probabilities just to be clear. 
-step_prob2 = 0.9
+step_prob2 = 0.6
 
 
 # Loop through each simulation.
