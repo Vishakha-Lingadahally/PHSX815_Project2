@@ -286,7 +286,6 @@ print('p-value: %.30f' % p)
 
 x=np.linspace(0.1, 1.0, num=10)
 L=(((math.factorial(n_steps))*((x)**(n_steps-nl))*((1-x)**(nl)))/((math.factorial(nl))*(math.factorial(n_steps-nl))))
-print(L)
 fig=plt.figure()
 values=['0.1', '0.2', '0.3','0.4', '0.5', '0.6','0.7','0.8','0.9','1.0']
 
